@@ -94,7 +94,7 @@ li::before {
 
 .infos h2 {
     color: var(--DarkRaspberry);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -106,7 +106,7 @@ li::before {
 .infos li.list {
     margin-left: 15px;
     color: var(--WengeBrown);
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .infos-plus .list span {
@@ -130,7 +130,7 @@ p span {
 
 .table-elem {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     color: var(--WengeBrown);
@@ -151,7 +151,8 @@ p span {
 }
 
 hr {
-    margin:15px 15px 15px 30px;
+    margin:20px 30px 20px 30px;
+
     width: 90%;
     color: var(--Nutmeg);
 
