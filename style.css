@@ -1,0 +1,158 @@
+:root {
+
+    --saumon: rgb(243, 229, 216);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--saumon);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.elem {
+    width: 50%;
+}
+
+.container-elem {
+
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    border-radius: 25px;
+}
+
+.elem-img {
+    margin: 30px 30px 0 30px;
+}
+
+h1 {
+    display: flex;
+    margin: 30px 30px 20px 30px;
+    align-self: flex-start;
+}
+
+p {
+    margin: 0 30px 0 30px;
+    color: var(--WengeBrown);
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    margin: 30px;
+    background-color: var(--RoseWhite);
+    width: 90%;
+    padding: 30px;
+}
+
+li::before {
+    content: "\2022";
+    color: var(--DarkRaspberry);
+    margin-right: 15px;
+}
+
+
+.infos h2 {
+    color: var(--DarkRaspberry);
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    color: var(--Nutmeg);
+
+}
+
+.infos li.list {
+    margin-left: 15px;
+    color: var(--WengeBrown);
+    margin-top: 15px;
+}
+
+.infos-plus .list span {
+    font-weight: bold;
+}
+
+.infos-plus li.list {
+    margin-left: 35px;
+    color: var(--WengeBrown);
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+p span {
+    display: flex;
+    color: var(--DarkRaspberry);
+    margin: 40px;
+    justify-content: space-around;
+}
+
+
+.table-elem {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--WengeBrown);
+}
+
+
+.col1 {
+    color: var(--DarkRaspberry);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.col2 {
+    color: var(--DarkRaspberry);
+    font-weight: bold;
+}
+
+hr {
+    margin:15px 15px 15px 30px;
+    width: 90%;
+    color: var(--Nutmeg);
+
+}
