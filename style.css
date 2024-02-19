@@ -137,12 +137,13 @@ p span {
 }
 
 
-.col1 {
+ .col1 {
     color: var(--DarkRaspberry);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     justify-items: flex-start;
+    
 }
 
 .col2 {
@@ -151,9 +152,12 @@ p span {
 }
 
 hr {
-    margin:20px 30px 20px 30px;
-
+    margin: 20px 30px 20px 30px;
     width: 90%;
     color: var(--Nutmeg);
-
 }
+
+.infos-plus {
+    margin-bottom: 40px;
+}
+
