@@ -113,6 +113,10 @@ li::before {
     font-weight: bold;
 }
 
+.list span {
+    font-weight: bold;
+}
+
 .infos-plus li.list {
     margin-left: 35px;
     color: var(--WengeBrown);
@@ -137,13 +141,13 @@ p span {
 }
 
 
- .col1 {
+.col1 {
     color: var(--DarkRaspberry);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     justify-items: flex-start;
-    
+
 }
 
 .col2 {
@@ -161,3 +165,13 @@ hr {
     margin-bottom: 40px;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.attribution a {
+    color: var(--DarkRaspberry);
+}
