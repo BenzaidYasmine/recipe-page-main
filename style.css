@@ -20,7 +20,6 @@
 
 body {
     background-color: var(--saumon);
-
 }
 
 .container {
@@ -28,13 +27,11 @@ body {
     flex-direction: row;
     margin-top: 80px;
     margin-bottom: 80px;
-
 }
 
 .item {
     display: flex;
     flex-direction: column;
-
 }
 
 .elem {
@@ -42,7 +39,6 @@ body {
 }
 
 .container-elem {
-
     width: auto;
     display: flex;
     flex-direction: column;
@@ -106,7 +102,6 @@ li::before {
 .title {
     display: flex;
     color: var(--Nutmeg);
-
 }
 
 .infos li.list {
@@ -153,7 +148,6 @@ p span {
     justify-content: flex-start;
     align-items: flex-start;
     justify-items: flex-start;
-
 }
 
 .col2 {
