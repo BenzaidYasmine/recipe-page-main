@@ -174,8 +174,3 @@ hr {
 .attribution a {
     color: var(--DarkRaspberry);
 }
-
-footer {
-    background-color: red;
-    height: 100px;
-}
