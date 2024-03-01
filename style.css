@@ -168,10 +168,16 @@ hr {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin: 30px;
+    /* margin: 30px; */
+    margin-bottom: -30px;
 
 }
 
 .attribution a {
     color: var(--DarkRaspberry);
+}
+
+footer {
+    background-color: red;
+    height: 100px;
 }
