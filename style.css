@@ -31,6 +31,12 @@ body {
 
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .elem {
     width: 50%;
 }
@@ -168,9 +174,7 @@ hr {
 .attribution {
     font-size: 11px;
     text-align: center;
-    /* margin: 30px; */
-    margin-bottom: -30px;
-
+    margin-top: 3rem;
 }
 
 .attribution a {
